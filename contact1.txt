@@ -1,0 +1,60 @@
+<! DOCTYPE html>
+<html lang="svk">
+<head>
+	<title> Bootstrap stranka</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<script language="javascript">var sa_email_id = '73876-aa9a8';var sa_sent_text = 'Thank you for contacting us. We will get back to you soon.';</script>
+<script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #157;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Domov</a></li>
+  <li><a href="#news">Novinky</a></li>
+  <li><a href="#contact">Kontakt</a></li>
+</ul>
+<div style="position: relative; top: 10px; left: 50px; overflow: visible; z-index: +1 ;" > 
+<h1>Kontakt</h1>
+<h2> V prípade akýchkoľvek otázok sa môžete obrátiť na nás pomocou kontaktného formulára</h2>
+<div id="sa_contactdiv">
+<form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+<table>
+
+<tr><td>Name: <span style="color:#D70000">*</span><br><input type="text" name="name" required="true" /></td></tr>
+<tr><td>E-mail Address: <span style="color:#D70000">*</span><br><input type="text" name="email" required="true" /></td></tr>
+<tr><td>Subject: <span style="color:#D70000">*</span><br><input type="text" name="subject" required="true" /></td></tr>
+<tr><td>Message: <span style="color:#D70000">*</span><br><textarea name="message" cols="42" rows="9" required="true"></textarea></td></tr>
+<tr><td><input type="submit" value="Send Message" style="font-weight:bold"></td></tr>
+</table>
+</body>
+</div> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+	
